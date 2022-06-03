@@ -3,7 +3,7 @@ require 'technoweenie/attachment_fu/processors'
 
 module Technoweenie # :nodoc:
   module AttachmentFu # :nodoc:
-    @@default_processors = %w(image_science rmagick mini_magick gd2 core_image)
+    @@default_processors = %w(image_science rmagick gd2 core_image)
     @@tempfile_path      = File.join(Rails.root.to_s, 'tmp', 'attachment_fu')
     @@content_types      = [
       'image/jpeg',
